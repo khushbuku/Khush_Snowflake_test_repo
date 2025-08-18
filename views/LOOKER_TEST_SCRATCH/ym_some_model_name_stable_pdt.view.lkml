@@ -1,0 +1,21 @@
+# The name of this view in Looker is "Ym Some Model Name Stable Pdt"
+view: ym_some_model_name_stable_pdt {
+  # The sql_table_name parameter indicates the underlying database table
+  # to be used for all fields in this view.
+  sql_table_name: "LOOKER_TEST_SCRATCH"."YM_SOME_MODEL_NAME_STABLE_PDT" ;;
+
+  # No primary key is defined for this view. In order to join this view in an Explore,
+  # define primary_key: yes on a dimension that has no repeated values.
+
+    # Here's what a typical dimension looks like in LookML.
+    # A dimension is a groupable field that can be used to filter query results.
+    # This dimension will be called "Some Num" in Explore.
+
+  dimension: some_num {
+    type: number
+    sql: ${TABLE}."SOME_NUM" ;;
+  }
+  measure: count {
+    type: count
+  }
+}
