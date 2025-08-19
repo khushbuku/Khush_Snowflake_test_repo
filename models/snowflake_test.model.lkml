@@ -20,3 +20,5 @@ map_layer: my_neighborhood_layer {
 explore: test1 {}
 
 explore: test_snowflake {}
+
+explore: classes {}
