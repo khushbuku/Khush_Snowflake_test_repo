@@ -13,6 +13,7 @@ view: classes {
 
   dimension: comment {
     type: string
+    map_layer_name: my_neighborhood_layer
     sql: ${TABLE}."COMMENT" ;;
   }
   # Dates and timestamps can be represented in Looker using a dimension group of type: time.
