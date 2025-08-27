@@ -12,6 +12,9 @@ datagroup: snowflake_test_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+
+
+
 persist_with: snowflake_test_default_datagroup
 
 map_layer: my_neighborhood_layer {
