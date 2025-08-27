@@ -15,8 +15,8 @@ datagroup: snowflake_test_default_datagroup {
 persist_with: snowflake_test_default_datagroup
 
 map_layer: my_neighborhood_layer {
-  file: "/maps/output.json"
-  }
+  file: "//Snowflake_test/maps/output.json"
+}
 
 explore: test1 {}
 

@@ -11,11 +11,11 @@ view: classes {
     # A dimension is a groupable field that can be used to filter query results.
     # This dimension will be called "Comment" in Explore.
 
-  dimension: comment {
-    type: string
-    map_layer_name: my_neighborhood_layer
-    sql: ${TABLE}."COMMENT" ;;
-  }
+  # dimension: comment {
+  #   type: string
+  #   map_layer_name: my_neighborhood_layer
+  #   sql: ${TABLE}."COMMENT" ;;
+  # }
   # Dates and timestamps can be represented in Looker using a dimension group of type: time.
   # Looker converts dates and timestamps to the specified timeframes within the dimension group.
 
