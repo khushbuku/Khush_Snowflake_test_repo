@@ -27,6 +27,7 @@ view: classes {
 
   dimension: database_name {
     type: string
+    map_layer_name:my_neighborhood_layer
     sql: ${TABLE}."DATABASE_NAME" ;;
   }
 

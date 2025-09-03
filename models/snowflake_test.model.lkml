@@ -26,3 +26,5 @@ explore: test1 {}
 explore: test_snowflake {}
 
 explore: classes {}
+
+explore: columns {}

@@ -13,6 +13,7 @@ view: columns {
 
   dimension: character_maximum_length {
     type: number
+    map_layer_name: my_neighborhood_layer
     sql: ${TABLE}."CHARACTER_MAXIMUM_LENGTH" ;;
   }
 
@@ -238,14 +239,14 @@ view: columns {
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
-	column_name,
-	table_name,
-	character_set_name,
-	domain_name,
-	collation_name,
-	udt_name,
-	scope_name
-	]
+  column_name,
+  table_name,
+  character_set_name,
+  domain_name,
+  collation_name,
+  udt_name,
+  scope_name
+  ]
   }
 
 }
